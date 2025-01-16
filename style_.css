@@ -1,0 +1,66 @@
+body {
+    font-family: 'Courier New', Courier, monospace; /* Nova fonte */
+    background-color: #f0f0f5; /* Cor de fundo clara */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#app {
+    background-color: #b22222; /* Fundo vermelho escuro */
+    border: 2px solid #a52a2a; /* Borda vermelha marcante */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Sombra mais intensa */
+    padding: 30px;
+    border-radius: 8px; /* Bordas mais arredondadas */
+    color: #eeeeee; /* Texto claro */
+}
+
+h1 {
+    font-size: 26px;
+    text-align: center;
+    color: #ff8c00; /* Laranja para o título */
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-transform: uppercase; /* Título em maiúsculas */
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #ffffff; /* Fundo branco para contraste */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+th {
+    background-color: #ff8c00; /* Laranja vibrante */
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center; /* Centralizado */
+    text-transform: capitalize; /* Primeira letra maiúscula */
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #8b0000; /* Texto vermelho escuro */
+    border-bottom: 1px solid #ddd; /* Separação entre as linhas */
+}
+
+tr:nth-child(even) {
+    background-color: #f7f7f7; /* Fundo mais claro para linhas pares */
+}
+
+tr:hover {
+    background-color: #ff8c00; /* Destaque laranja ao passar o mouse */
+    color: #ffffff;
+    transition: all 0.3s ease; /* Transição suave */
+}
